@@ -221,3 +221,9 @@ __marimo__/
 # Enterprise env file (secrets) and generated run reports
 .env.enterprise
 reports/
+
+# Archive device credentials and durable execution state stay outside the repo.
+**/mt5-connector.json
+**/mt5-trading.json
+**/journal.sqlite3*
+**/executor.lock
