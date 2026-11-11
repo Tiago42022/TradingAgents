@@ -227,3 +227,6 @@ reports/
 **/mt5-trading.json
 **/journal.sqlite3*
 **/executor.lock
+# Local Archive device credentials must remain outside source control.
+**/mt5-signals.json
+**/archive-push.json
